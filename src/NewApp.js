@@ -44,10 +44,6 @@ function App() {
         ))
     };
 
-    useLayoutEffect(() => {
-        alert('喵嗚')
-    }, [])
-
     return (
         <div className='todolist'>
             <div className='wrapper'>

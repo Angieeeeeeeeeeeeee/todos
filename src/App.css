@@ -57,6 +57,10 @@
   align-items: center;
 }
 
+.listItem.completed .listItemContent {
+  color: #f8c971;
+}
+
 .listItemState {
   display: flex;
   margin-right: 10px;
