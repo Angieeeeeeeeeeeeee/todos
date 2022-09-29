@@ -8,7 +8,7 @@ import "./App.css";
 export default function TodoList({ todo, onDelete, stateSwitch }) {
   return (
     <div className={cx('listItem', {
-      completed: todo.completed``
+      completed: todo.completed
     })}>
       <div className='listItemState'>{todo.completed ? 'O' : 'X'}</div>
       <div className='listItemContent'>{todo.text}</div>
